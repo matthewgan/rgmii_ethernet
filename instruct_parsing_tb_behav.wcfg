@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="instruct_parsing_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="instruct_parsing_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="67166667fs"></ZoomStartTime>
+      <ZoomEndTime time="1078166668fs"></ZoomEndTime>
+      <Cursor1Time time="365000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="330"></NameColumnWidth>
+      <ValueColumnWidth column_width="177"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="159" />
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/i_sys_clk" type="logic">
+      <obj_property name="ElementShortName">i_sys_clk</obj_property>
+      <obj_property name="ObjectShortName">i_sys_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/i_rst_n" type="logic">
+      <obj_property name="ElementShortName">i_rst_n</obj_property>
+      <obj_property name="ObjectShortName">i_rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/i_udp_data_receive_done" type="logic">
+      <obj_property name="ElementShortName">i_udp_data_receive_done</obj_property>
+      <obj_property name="ObjectShortName">i_udp_data_receive_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/i_instruct_data" type="array">
+      <obj_property name="ElementShortName">i_instruct_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i_instruct_data[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/o_udp_data_rd_addr" type="array">
+      <obj_property name="ElementShortName">o_udp_data_rd_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">o_udp_data_rd_addr[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/o_dof_data_en" type="logic">
+      <obj_property name="ElementShortName">o_dof_data_en</obj_property>
+      <obj_property name="ObjectShortName">o_dof_data_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/o_dof_data" type="array">
+      <obj_property name="ElementShortName">o_dof_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o_dof_data[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/o_act_pos_data_en" type="logic">
+      <obj_property name="ElementShortName">o_act_pos_data_en</obj_property>
+      <obj_property name="ObjectShortName">o_act_pos_data_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/o_act_pos_data" type="array">
+      <obj_property name="ElementShortName">o_act_pos_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o_act_pos_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/o_mot_cue_data_en" type="logic">
+      <obj_property name="ElementShortName">o_mot_cue_data_en</obj_property>
+      <obj_property name="ObjectShortName">o_mot_cue_data_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/o_mot_cue_data" type="array">
+      <obj_property name="ElementShortName">o_mot_cue_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o_mot_cue_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/o_playback_data_en" type="logic">
+      <obj_property name="ElementShortName">o_playback_data_en</obj_property>
+      <obj_property name="ObjectShortName">o_playback_data_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/o_playback_data" type="array">
+      <obj_property name="ElementShortName">o_playback_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o_playback_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/o_ext_mot_cue_data_en" type="logic">
+      <obj_property name="ElementShortName">o_ext_mot_cue_data_en</obj_property>
+      <obj_property name="ObjectShortName">o_ext_mot_cue_data_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/o_ext_mot_cue_data" type="array">
+      <obj_property name="ElementShortName">o_ext_mot_cue_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o_ext_mot_cue_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/o_act_pva_data_en" type="logic">
+      <obj_property name="ElementShortName">o_act_pva_data_en</obj_property>
+      <obj_property name="ObjectShortName">o_act_pva_data_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/o_act_pva_data" type="array">
+      <obj_property name="ElementShortName">o_act_pva_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o_act_pva_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/s_fsm_cur" type="array">
+      <obj_property name="ElementShortName">s_fsm_cur[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_fsm_cur[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/s_fsm_next" type="array">
+      <obj_property name="ElementShortName">s_fsm_next[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_fsm_next[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/s_pkg_missing_frame" type="array">
+      <obj_property name="ElementShortName">s_pkg_missing_frame[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_pkg_missing_frame[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/s_former_pkg_seq_cnt" type="array">
+      <obj_property name="ElementShortName">s_former_pkg_seq_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_former_pkg_seq_cnt[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/s_pkg_missing_frame_valid" type="logic">
+      <obj_property name="ElementShortName">s_pkg_missing_frame_valid</obj_property>
+      <obj_property name="ObjectShortName">s_pkg_missing_frame_valid</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/s_instruct_cnt" type="array">
+      <obj_property name="ElementShortName">s_instruct_cnt[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_instruct_cnt[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/s_param_cnt" type="array">
+      <obj_property name="ElementShortName">s_param_cnt[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_param_cnt[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/s_instruct_pkg_length" type="array">
+      <obj_property name="ElementShortName">s_instruct_pkg_length[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_instruct_pkg_length[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/s_instruct_pkg_cnt" type="array">
+      <obj_property name="ElementShortName">s_instruct_pkg_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_instruct_pkg_cnt[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/s_instruct_ID" type="array">
+      <obj_property name="ElementShortName">s_instruct_ID[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_instruct_ID[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/s_split_instruct_header_done" type="logic">
+      <obj_property name="ElementShortName">s_split_instruct_header_done</obj_property>
+      <obj_property name="ObjectShortName">s_split_instruct_header_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/s_ID_is_connect_req" type="logic">
+      <obj_property name="ElementShortName">s_ID_is_connect_req</obj_property>
+      <obj_property name="ObjectShortName">s_ID_is_connect_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/s_ID_is_disconnect_req" type="logic">
+      <obj_property name="ElementShortName">s_ID_is_disconnect_req</obj_property>
+      <obj_property name="ObjectShortName">s_ID_is_disconnect_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/s_ID_is_DOF_mode" type="logic">
+      <obj_property name="ElementShortName">s_ID_is_DOF_mode</obj_property>
+      <obj_property name="ObjectShortName">s_ID_is_DOF_mode</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/s_ID_is_actuator_postion_mode" type="logic">
+      <obj_property name="ElementShortName">s_ID_is_actuator_postion_mode</obj_property>
+      <obj_property name="ObjectShortName">s_ID_is_actuator_postion_mode</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/s_ID_is_motion_cueing_mode" type="logic">
+      <obj_property name="ElementShortName">s_ID_is_motion_cueing_mode</obj_property>
+      <obj_property name="ObjectShortName">s_ID_is_motion_cueing_mode</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/s_ID_is_playback_mode" type="logic">
+      <obj_property name="ElementShortName">s_ID_is_playback_mode</obj_property>
+      <obj_property name="ObjectShortName">s_ID_is_playback_mode</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/s_ID_is_extend_motion_cueing_mode" type="logic">
+      <obj_property name="ElementShortName">s_ID_is_extend_motion_cueing_mode</obj_property>
+      <obj_property name="ObjectShortName">s_ID_is_extend_motion_cueing_mode</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/s_ID_is_actuator_pva_mode" type="logic">
+      <obj_property name="ElementShortName">s_ID_is_actuator_pva_mode</obj_property>
+      <obj_property name="ObjectShortName">s_ID_is_actuator_pva_mode</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/s_udp_data_rd_addr" type="array">
+      <obj_property name="ElementShortName">s_udp_data_rd_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">s_udp_data_rd_addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/s_connect_ok" type="logic">
+      <obj_property name="ElementShortName">s_connect_ok</obj_property>
+      <obj_property name="ObjectShortName">s_connect_ok</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/s_seperate_data_done" type="logic">
+      <obj_property name="ElementShortName">s_seperate_data_done</obj_property>
+      <obj_property name="ObjectShortName">s_seperate_data_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/s_seperate_data_valid" type="logic">
+      <obj_property name="ElementShortName">s_seperate_data_valid</obj_property>
+      <obj_property name="ObjectShortName">s_seperate_data_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/s_dof_data_valid" type="logic">
+      <obj_property name="ElementShortName">s_dof_data_valid</obj_property>
+      <obj_property name="ObjectShortName">s_dof_data_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/s_actuator_postion_data_valid" type="logic">
+      <obj_property name="ElementShortName">s_actuator_postion_data_valid</obj_property>
+      <obj_property name="ObjectShortName">s_actuator_postion_data_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/s_motion_cueing_data_valid" type="logic">
+      <obj_property name="ElementShortName">s_motion_cueing_data_valid</obj_property>
+      <obj_property name="ObjectShortName">s_motion_cueing_data_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/s_playback_data_valid" type="logic">
+      <obj_property name="ElementShortName">s_playback_data_valid</obj_property>
+      <obj_property name="ObjectShortName">s_playback_data_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/s_ext_motion_cueing_data_valid" type="logic">
+      <obj_property name="ElementShortName">s_ext_motion_cueing_data_valid</obj_property>
+      <obj_property name="ObjectShortName">s_ext_motion_cueing_data_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/s_actuator_pva_data_valid" type="logic">
+      <obj_property name="ElementShortName">s_actuator_pva_data_valid</obj_property>
+      <obj_property name="ObjectShortName">s_actuator_pva_data_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/s_instruct_data" type="array">
+      <obj_property name="ElementShortName">s_instruct_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_instruct_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/INS_WIDTH" type="array">
+      <obj_property name="ElementShortName">INS_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">INS_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/Idle" type="array">
+      <obj_property name="ElementShortName">Idle[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Idle[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/Start_Parse_Instruct" type="array">
+      <obj_property name="ElementShortName">Start_Parse_Instruct[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Start_Parse_Instruct[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/Split_Instruct_Header" type="array">
+      <obj_property name="ElementShortName">Split_Instruct_Header[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Split_Instruct_Header[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/Judge_Instruct_Type" type="array">
+      <obj_property name="ElementShortName">Judge_Instruct_Type[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Judge_Instruct_Type[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/Start_Seperate_DOF_Data" type="array">
+      <obj_property name="ElementShortName">Start_Seperate_DOF_Data[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Start_Seperate_DOF_Data[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/Start_Seperate_Actuator_Position_Data" type="array">
+      <obj_property name="ElementShortName">Start_Seperate_Actuator_Position_Data[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Start_Seperate_Actuator_Position_Data[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/Start_Seperate_Motion_Cueing_Data" type="array">
+      <obj_property name="ElementShortName">Start_Seperate_Motion_Cueing_Data[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Start_Seperate_Motion_Cueing_Data[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/Start_Seperate_Playback_Data" type="array">
+      <obj_property name="ElementShortName">Start_Seperate_Playback_Data[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Start_Seperate_Playback_Data[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/Start_Seperate_Extend_Motion_Cueing_Data" type="array">
+      <obj_property name="ElementShortName">Start_Seperate_Extend_Motion_Cueing_Data[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Start_Seperate_Extend_Motion_Cueing_Data[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/Start_Seperate_Actuator_PVA_Data" type="array">
+      <obj_property name="ElementShortName">Start_Seperate_Actuator_PVA_Data[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Start_Seperate_Actuator_PVA_Data[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/HEADER_LENGTH" type="array">
+      <obj_property name="ElementShortName">HEADER_LENGTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">HEADER_LENGTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/DOF_WORD_NUM" type="array">
+      <obj_property name="ElementShortName">DOF_WORD_NUM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DOF_WORD_NUM[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/ACTUATOR_POSITION_WORD_NUM" type="array">
+      <obj_property name="ElementShortName">ACTUATOR_POSITION_WORD_NUM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ACTUATOR_POSITION_WORD_NUM[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/MOTION_CUEING_WORD_NUM" type="array">
+      <obj_property name="ElementShortName">MOTION_CUEING_WORD_NUM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MOTION_CUEING_WORD_NUM[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/PLAYBACK_WORD_NUM" type="array">
+      <obj_property name="ElementShortName">PLAYBACK_WORD_NUM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PLAYBACK_WORD_NUM[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/EXT_MOTION_CUEING_WORD_NUM" type="array">
+      <obj_property name="ElementShortName">EXT_MOTION_CUEING_WORD_NUM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EXT_MOTION_CUEING_WORD_NUM[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/ACTURATOR_PVA_WORD_NUM" type="array">
+      <obj_property name="ElementShortName">ACTURATOR_PVA_WORD_NUM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ACTURATOR_PVA_WORD_NUM[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/s_motion_cmd_data" type="array">
+      <obj_property name="ElementShortName">s_motion_cmd_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_motion_cmd_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/s_motion_cmd_data_valid" type="logic">
+      <obj_property name="ElementShortName">s_motion_cmd_data_valid</obj_property>
+      <obj_property name="ObjectShortName">s_motion_cmd_data_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/s_status_request_data" type="array">
+      <obj_property name="ElementShortName">s_status_request_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_status_request_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/s_status_request_data_valid" type="logic">
+      <obj_property name="ElementShortName">s_status_request_data_valid</obj_property>
+      <obj_property name="ObjectShortName">s_status_request_data_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/s_cmd_null_valid" type="logic">
+      <obj_property name="ElementShortName">s_cmd_null_valid</obj_property>
+      <obj_property name="ObjectShortName">s_cmd_null_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/s_cmd_engage_valid" type="logic">
+      <obj_property name="ElementShortName">s_cmd_engage_valid</obj_property>
+      <obj_property name="ObjectShortName">s_cmd_engage_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/s_cmd_disengage_valid" type="logic">
+      <obj_property name="ElementShortName">s_cmd_disengage_valid</obj_property>
+      <obj_property name="ObjectShortName">s_cmd_disengage_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/s_cmd_reset_valid" type="logic">
+      <obj_property name="ElementShortName">s_cmd_reset_valid</obj_property>
+      <obj_property name="ObjectShortName">s_cmd_reset_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/s_cmd_start_valid" type="logic">
+      <obj_property name="ElementShortName">s_cmd_start_valid</obj_property>
+      <obj_property name="ObjectShortName">s_cmd_start_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/s_drawbridge_open_valid" type="logic">
+      <obj_property name="ElementShortName">s_drawbridge_open_valid</obj_property>
+      <obj_property name="ObjectShortName">s_drawbridge_open_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/s_drawbriege_close_valid" type="logic">
+      <obj_property name="ElementShortName">s_drawbriege_close_valid</obj_property>
+      <obj_property name="ObjectShortName">s_drawbriege_close_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/s_drawbridge_stop_valid" type="logic">
+      <obj_property name="ElementShortName">s_drawbridge_stop_valid</obj_property>
+      <obj_property name="ObjectShortName">s_drawbridge_stop_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/s_cmd_powerup_valid" type="logic">
+      <obj_property name="ElementShortName">s_cmd_powerup_valid</obj_property>
+      <obj_property name="ObjectShortName">s_cmd_powerup_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_instruct_parsing/s_cmd_invalid" type="logic">
+      <obj_property name="ElementShortName">s_cmd_invalid</obj_property>
+      <obj_property name="ObjectShortName">s_cmd_invalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/i_sys_clk" type="logic">
+      <obj_property name="ElementShortName">i_sys_clk</obj_property>
+      <obj_property name="ObjectShortName">i_sys_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/i_rst_n" type="logic">
+      <obj_property name="ElementShortName">i_rst_n</obj_property>
+      <obj_property name="ObjectShortName">i_rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/i_act_pva_data_en" type="logic">
+      <obj_property name="ElementShortName">i_act_pva_data_en</obj_property>
+      <obj_property name="ObjectShortName">i_act_pva_data_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/i_act_pva_data" type="array">
+      <obj_property name="ElementShortName">i_act_pva_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i_act_pva_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/o_act_pva_axis_A_pos_data" type="array">
+      <obj_property name="ElementShortName">o_act_pva_axis_A_pos_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o_act_pva_axis_A_pos_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/o_act_pva_axis_A_vel_data" type="array">
+      <obj_property name="ElementShortName">o_act_pva_axis_A_vel_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o_act_pva_axis_A_vel_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/o_act_pva_axis_A_acc_data" type="array">
+      <obj_property name="ElementShortName">o_act_pva_axis_A_acc_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o_act_pva_axis_A_acc_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/o_act_pva_axis_B_pos_data" type="array">
+      <obj_property name="ElementShortName">o_act_pva_axis_B_pos_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o_act_pva_axis_B_pos_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/o_act_pva_axis_B_vel_data" type="array">
+      <obj_property name="ElementShortName">o_act_pva_axis_B_vel_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o_act_pva_axis_B_vel_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/o_act_pva_axis_B_acc_data" type="array">
+      <obj_property name="ElementShortName">o_act_pva_axis_B_acc_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o_act_pva_axis_B_acc_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/o_act_pva_axis_C_pos_data" type="array">
+      <obj_property name="ElementShortName">o_act_pva_axis_C_pos_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o_act_pva_axis_C_pos_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/o_act_pva_axis_C_vel_data" type="array">
+      <obj_property name="ElementShortName">o_act_pva_axis_C_vel_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o_act_pva_axis_C_vel_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/o_act_pva_axis_C_acc_data" type="array">
+      <obj_property name="ElementShortName">o_act_pva_axis_C_acc_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o_act_pva_axis_C_acc_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/o_act_pva_axis_D_pos_data" type="array">
+      <obj_property name="ElementShortName">o_act_pva_axis_D_pos_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o_act_pva_axis_D_pos_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/o_act_pva_axis_D_vel_data" type="array">
+      <obj_property name="ElementShortName">o_act_pva_axis_D_vel_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o_act_pva_axis_D_vel_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/o_act_pva_axis_D_acc_data" type="array">
+      <obj_property name="ElementShortName">o_act_pva_axis_D_acc_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o_act_pva_axis_D_acc_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/o_act_pva_axis_E_pos_data" type="array">
+      <obj_property name="ElementShortName">o_act_pva_axis_E_pos_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o_act_pva_axis_E_pos_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/o_act_pva_axis_E_vel_data" type="array">
+      <obj_property name="ElementShortName">o_act_pva_axis_E_vel_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o_act_pva_axis_E_vel_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/o_act_pva_axis_E_acc_data" type="array">
+      <obj_property name="ElementShortName">o_act_pva_axis_E_acc_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o_act_pva_axis_E_acc_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/o_act_pva_axis_F_pos_data" type="array">
+      <obj_property name="ElementShortName">o_act_pva_axis_F_pos_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o_act_pva_axis_F_pos_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/o_act_pva_axis_F_vel_data" type="array">
+      <obj_property name="ElementShortName">o_act_pva_axis_F_vel_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o_act_pva_axis_F_vel_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/o_act_pva_axis_F_acc_data" type="array">
+      <obj_property name="ElementShortName">o_act_pva_axis_F_acc_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o_act_pva_axis_F_acc_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/o_act_pva_axis_data_en" type="logic">
+      <obj_property name="ElementShortName">o_act_pva_axis_data_en</obj_property>
+      <obj_property name="ObjectShortName">o_act_pva_axis_data_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/s_axis_A_pos_max" type="array">
+      <obj_property name="ElementShortName">s_axis_A_pos_max[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_A_pos_max[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/s_axis_A_vel_max" type="array">
+      <obj_property name="ElementShortName">s_axis_A_vel_max[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_A_vel_max[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/s_axis_A_acc_min" type="array">
+      <obj_property name="ElementShortName">s_axis_A_acc_min[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_A_acc_min[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/s_axis_A_acc_max" type="array">
+      <obj_property name="ElementShortName">s_axis_A_acc_max[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_A_acc_max[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/s_axis_B_pos_max" type="array">
+      <obj_property name="ElementShortName">s_axis_B_pos_max[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_B_pos_max[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/s_axis_B_vel_max" type="array">
+      <obj_property name="ElementShortName">s_axis_B_vel_max[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_B_vel_max[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/s_axis_B_acc_min" type="array">
+      <obj_property name="ElementShortName">s_axis_B_acc_min[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_B_acc_min[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/s_axis_B_acc_max" type="array">
+      <obj_property name="ElementShortName">s_axis_B_acc_max[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_B_acc_max[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/s_axis_C_pos_max" type="array">
+      <obj_property name="ElementShortName">s_axis_C_pos_max[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_C_pos_max[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/s_axis_C_vel_max" type="array">
+      <obj_property name="ElementShortName">s_axis_C_vel_max[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_C_vel_max[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/s_axis_C_acc_min" type="array">
+      <obj_property name="ElementShortName">s_axis_C_acc_min[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_C_acc_min[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/s_axis_C_acc_max" type="array">
+      <obj_property name="ElementShortName">s_axis_C_acc_max[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_C_acc_max[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/s_axis_D_pos_max" type="array">
+      <obj_property name="ElementShortName">s_axis_D_pos_max[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_D_pos_max[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/s_axis_D_vel_max" type="array">
+      <obj_property name="ElementShortName">s_axis_D_vel_max[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_D_vel_max[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/s_axis_D_acc_min" type="array">
+      <obj_property name="ElementShortName">s_axis_D_acc_min[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_D_acc_min[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/s_axis_D_acc_max" type="array">
+      <obj_property name="ElementShortName">s_axis_D_acc_max[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_D_acc_max[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/s_axis_E_pos_max" type="array">
+      <obj_property name="ElementShortName">s_axis_E_pos_max[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_E_pos_max[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/s_axis_E_vel_max" type="array">
+      <obj_property name="ElementShortName">s_axis_E_vel_max[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_E_vel_max[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/s_axis_E_acc_min" type="array">
+      <obj_property name="ElementShortName">s_axis_E_acc_min[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_E_acc_min[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/s_axis_E_acc_max" type="array">
+      <obj_property name="ElementShortName">s_axis_E_acc_max[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_E_acc_max[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/s_axis_F_pos_max" type="array">
+      <obj_property name="ElementShortName">s_axis_F_pos_max[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_F_pos_max[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/s_axis_F_vel_max" type="array">
+      <obj_property name="ElementShortName">s_axis_F_vel_max[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_F_vel_max[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/s_axis_F_acc_min" type="array">
+      <obj_property name="ElementShortName">s_axis_F_acc_min[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_F_acc_min[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/s_axis_F_acc_max" type="array">
+      <obj_property name="ElementShortName">s_axis_F_acc_max[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_F_acc_max[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/s_axis_A_pos_data" type="array">
+      <obj_property name="ElementShortName">s_axis_A_pos_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_A_pos_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/s_axis_A_vel_data" type="array">
+      <obj_property name="ElementShortName">s_axis_A_vel_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_A_vel_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/s_axis_A_acc_data" type="array">
+      <obj_property name="ElementShortName">s_axis_A_acc_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_A_acc_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/s_axis_B_pos_data" type="array">
+      <obj_property name="ElementShortName">s_axis_B_pos_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_B_pos_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/s_axis_B_vel_data" type="array">
+      <obj_property name="ElementShortName">s_axis_B_vel_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_B_vel_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/s_axis_B_acc_data" type="array">
+      <obj_property name="ElementShortName">s_axis_B_acc_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_B_acc_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/s_axis_C_pos_data" type="array">
+      <obj_property name="ElementShortName">s_axis_C_pos_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_C_pos_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/s_axis_C_vel_data" type="array">
+      <obj_property name="ElementShortName">s_axis_C_vel_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_C_vel_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/s_axis_C_acc_data" type="array">
+      <obj_property name="ElementShortName">s_axis_C_acc_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_C_acc_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/s_axis_D_pos_data" type="array">
+      <obj_property name="ElementShortName">s_axis_D_pos_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_D_pos_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/s_axis_D_vel_data" type="array">
+      <obj_property name="ElementShortName">s_axis_D_vel_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_D_vel_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/s_axis_D_acc_data" type="array">
+      <obj_property name="ElementShortName">s_axis_D_acc_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_D_acc_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/s_axis_E_pos_data" type="array">
+      <obj_property name="ElementShortName">s_axis_E_pos_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_E_pos_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/s_axis_E_vel_data" type="array">
+      <obj_property name="ElementShortName">s_axis_E_vel_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_E_vel_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/s_axis_E_acc_data" type="array">
+      <obj_property name="ElementShortName">s_axis_E_acc_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_E_acc_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/s_axis_F_pos_data" type="array">
+      <obj_property name="ElementShortName">s_axis_F_pos_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_F_pos_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/s_axis_F_vel_data" type="array">
+      <obj_property name="ElementShortName">s_axis_F_vel_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_F_vel_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/s_axis_F_acc_data" type="array">
+      <obj_property name="ElementShortName">s_axis_F_acc_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_F_acc_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/s_data_cnt" type="array">
+      <obj_property name="ElementShortName">s_data_cnt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">s_data_cnt[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/s_data_loop_cnt" type="array">
+      <obj_property name="ElementShortName">s_data_loop_cnt[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s_data_loop_cnt[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/s_axis_cnt" type="array">
+      <obj_property name="ElementShortName">s_axis_cnt[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_cnt[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/s_data_loop_cnt_reg" type="array">
+      <obj_property name="ElementShortName">s_data_loop_cnt_reg[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s_data_loop_cnt_reg[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/s_axis_cnt_reg" type="array">
+      <obj_property name="ElementShortName">s_axis_cnt_reg[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_cnt_reg[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/s_data_valid_record" type="array">
+      <obj_property name="ElementShortName">s_data_valid_record[4:0]</obj_property>
+      <obj_property name="ObjectShortName">s_data_valid_record[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/s_pos_data_valid" type="logic">
+      <obj_property name="ElementShortName">s_pos_data_valid</obj_property>
+      <obj_property name="ObjectShortName">s_pos_data_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/s_vel_data_valid" type="logic">
+      <obj_property name="ElementShortName">s_vel_data_valid</obj_property>
+      <obj_property name="ObjectShortName">s_vel_data_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/s_acc_data_valid" type="logic">
+      <obj_property name="ElementShortName">s_acc_data_valid</obj_property>
+      <obj_property name="ObjectShortName">s_acc_data_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/s_act_pva_data" type="array">
+      <obj_property name="ElementShortName">s_act_pva_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_act_pva_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/s_act_pva_data_en" type="logic">
+      <obj_property name="ElementShortName">s_act_pva_data_en</obj_property>
+      <obj_property name="ObjectShortName">s_act_pva_data_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/u_actuator_pva/INS_WIDTH" type="array">
+      <obj_property name="ElementShortName">INS_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">INS_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/wea" type="logic">
+      <obj_property name="ElementShortName">wea</obj_property>
+      <obj_property name="ObjectShortName">wea</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/addra" type="array">
+      <obj_property name="ElementShortName">addra[8:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/instruct_parsing_tb/dina" type="array">
+      <obj_property name="ElementShortName">dina[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dina[31:0]</obj_property>
+   </wvobject>
+</wave_config>

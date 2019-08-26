@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="mcc_data_assemble_pkg_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="mcc_data_assemble_pkg_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="225000000fs"></ZoomStartTime>
+      <ZoomEndTime time="700200001fs"></ZoomEndTime>
+      <Cursor1Time time="375000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="305"></NameColumnWidth>
+      <ValueColumnWidth column_width="90"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="49" />
+   <wvobject fp_name="/mcc_data_assemble_pkg_tb/uut/i_sys_clk" type="logic">
+      <obj_property name="ElementShortName">i_sys_clk</obj_property>
+      <obj_property name="ObjectShortName">i_sys_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_data_assemble_pkg_tb/uut/i_rst_n" type="logic">
+      <obj_property name="ElementShortName">i_rst_n</obj_property>
+      <obj_property name="ObjectShortName">i_rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_data_assemble_pkg_tb/uut/i_req_ack_start_en" type="logic">
+      <obj_property name="ElementShortName">i_req_ack_start_en</obj_property>
+      <obj_property name="ObjectShortName">i_req_ack_start_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_data_assemble_pkg_tb/uut/i_req_nack_start_en" type="logic">
+      <obj_property name="ElementShortName">i_req_nack_start_en</obj_property>
+      <obj_property name="ObjectShortName">i_req_nack_start_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_data_assemble_pkg_tb/uut/i_status_request_start_en" type="logic">
+      <obj_property name="ElementShortName">i_status_request_start_en</obj_property>
+      <obj_property name="ObjectShortName">i_status_request_start_en</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_data_assemble_pkg_tb/uut/i_status_request_data" type="array">
+      <obj_property name="ElementShortName">i_status_request_data[2:0]</obj_property>
+      <obj_property name="ObjectShortName">i_status_request_data[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_data_assemble_pkg_tb/uut/i_status_data_pkg_length" type="array">
+      <obj_property name="ElementShortName">i_status_data_pkg_length[15:0]</obj_property>
+      <obj_property name="ObjectShortName">i_status_data_pkg_length[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_data_assemble_pkg_tb/uut/o_assemble_pkg_done" type="logic">
+      <obj_property name="ElementShortName">o_assemble_pkg_done</obj_property>
+      <obj_property name="ObjectShortName">o_assemble_pkg_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_data_assemble_pkg_tb/uut/o_assemble_pkg_is_running" type="logic">
+      <obj_property name="ElementShortName">o_assemble_pkg_is_running</obj_property>
+      <obj_property name="ObjectShortName">o_assemble_pkg_is_running</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_data_assemble_pkg_tb/uut/o_pkg_data_length" type="array">
+      <obj_property name="ElementShortName">o_pkg_data_length[15:0]</obj_property>
+      <obj_property name="ObjectShortName">o_pkg_data_length[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_data_assemble_pkg_tb/uut/o_pkg_data_total_length" type="array">
+      <obj_property name="ElementShortName">o_pkg_data_total_length[15:0]</obj_property>
+      <obj_property name="ObjectShortName">o_pkg_data_total_length[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_data_assemble_pkg_tb/uut/o_pkg_ram_wr_en" type="logic">
+      <obj_property name="ElementShortName">o_pkg_ram_wr_en</obj_property>
+      <obj_property name="ObjectShortName">o_pkg_ram_wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_data_assemble_pkg_tb/uut/o_pkg_ram_wr_addr" type="array">
+      <obj_property name="ElementShortName">o_pkg_ram_wr_addr[8:0]</obj_property>
+      <obj_property name="ObjectShortName">o_pkg_ram_wr_addr[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_data_assemble_pkg_tb/uut/o_pkg_ram_wr_data" type="array">
+      <obj_property name="ElementShortName">o_pkg_ram_wr_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o_pkg_ram_wr_data[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_data_assemble_pkg_tb/uut/o_pkg_send_udp_req" type="logic">
+      <obj_property name="ElementShortName">o_pkg_send_udp_req</obj_property>
+      <obj_property name="ObjectShortName">o_pkg_send_udp_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_data_assemble_pkg_tb/uut/s_fsm_cur" type="array">
+      <obj_property name="ElementShortName">s_fsm_cur[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_fsm_cur[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_data_assemble_pkg_tb/uut/s_fsm_next" type="array">
+      <obj_property name="ElementShortName">s_fsm_next[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_fsm_next[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_data_assemble_pkg_tb/uut/s_pkg_seq_cnt" type="array">
+      <obj_property name="ElementShortName">s_pkg_seq_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_pkg_seq_cnt[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_data_assemble_pkg_tb/uut/s_pkg_length" type="array">
+      <obj_property name="ElementShortName">s_pkg_length[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_pkg_length[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_data_assemble_pkg_tb/uut/s_pkg_message_ID" type="array">
+      <obj_property name="ElementShortName">s_pkg_message_ID[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_pkg_message_ID[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_data_assemble_pkg_tb/uut/s_pkg_ram_wr_en" type="logic">
+      <obj_property name="ElementShortName">s_pkg_ram_wr_en</obj_property>
+      <obj_property name="ObjectShortName">s_pkg_ram_wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_data_assemble_pkg_tb/uut/s_pkg_ram_wr_addr" type="array">
+      <obj_property name="ElementShortName">s_pkg_ram_wr_addr[8:0]</obj_property>
+      <obj_property name="ObjectShortName">s_pkg_ram_wr_addr[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_data_assemble_pkg_tb/uut/s_pkg_ram_wr_data" type="array">
+      <obj_property name="ElementShortName">s_pkg_ram_wr_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_pkg_ram_wr_data[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_data_assemble_pkg_tb/uut/s_pkg_cnt" type="array">
+      <obj_property name="ElementShortName">s_pkg_cnt[8:0]</obj_property>
+      <obj_property name="ObjectShortName">s_pkg_cnt[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_data_assemble_pkg_tb/uut/s_pkg_cnt_done" type="logic">
+      <obj_property name="ElementShortName">s_pkg_cnt_done</obj_property>
+      <obj_property name="ObjectShortName">s_pkg_cnt_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_data_assemble_pkg_tb/uut/s_message_ID_type" type="array">
+      <obj_property name="ElementShortName">s_message_ID_type[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s_message_ID_type[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_data_assemble_pkg_tb/uut/s_req_ack_wait" type="logic">
+      <obj_property name="ElementShortName">s_req_ack_wait</obj_property>
+      <obj_property name="ObjectShortName">s_req_ack_wait</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_data_assemble_pkg_tb/uut/s_req_nack_wait" type="logic">
+      <obj_property name="ElementShortName">s_req_nack_wait</obj_property>
+      <obj_property name="ObjectShortName">s_req_nack_wait</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_data_assemble_pkg_tb/uut/s_status_req_ack_wait" type="logic">
+      <obj_property name="ElementShortName">s_status_req_ack_wait</obj_property>
+      <obj_property name="ObjectShortName">s_status_req_ack_wait</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_data_assemble_pkg_tb/uut/Idle" type="array">
+      <obj_property name="ElementShortName">Idle[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Idle[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_data_assemble_pkg_tb/uut/Req_Ack_Pkg" type="array">
+      <obj_property name="ElementShortName">Req_Ack_Pkg[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Req_Ack_Pkg[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_data_assemble_pkg_tb/uut/Req_Nack_Pkg" type="array">
+      <obj_property name="ElementShortName">Req_Nack_Pkg[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Req_Nack_Pkg[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_data_assemble_pkg_tb/uut/Status_Data_Pkg" type="array">
+      <obj_property name="ElementShortName">Status_Data_Pkg[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Status_Data_Pkg[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_data_assemble_pkg_tb/uut/Message_Header" type="array">
+      <obj_property name="ElementShortName">Message_Header[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Message_Header[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_data_assemble_pkg_tb/uut/Ack_Nack_Data" type="array">
+      <obj_property name="ElementShortName">Ack_Nack_Data[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Ack_Nack_Data[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_data_assemble_pkg_tb/uut/Status_Response_Section_0" type="array">
+      <obj_property name="ElementShortName">Status_Response_Section_0[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Status_Response_Section_0[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_data_assemble_pkg_tb/uut/Write_Pkg_Done" type="array">
+      <obj_property name="ElementShortName">Write_Pkg_Done[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Write_Pkg_Done[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_data_assemble_pkg_tb/uut/state_wid_msb" type="array">
+      <obj_property name="ElementShortName">state_wid_msb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">state_wid_msb[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_data_assemble_pkg_tb/uut/REQ_ACK" type="array">
+      <obj_property name="ElementShortName">REQ_ACK[1:0]</obj_property>
+      <obj_property name="ObjectShortName">REQ_ACK[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_data_assemble_pkg_tb/uut/REQ_NACK" type="array">
+      <obj_property name="ElementShortName">REQ_NACK[1:0]</obj_property>
+      <obj_property name="ObjectShortName">REQ_NACK[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_data_assemble_pkg_tb/uut/STATUS" type="array">
+      <obj_property name="ElementShortName">STATUS[1:0]</obj_property>
+      <obj_property name="ObjectShortName">STATUS[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_data_assemble_pkg_tb/uut/None" type="array">
+      <obj_property name="ElementShortName">None[2:0]</obj_property>
+      <obj_property name="ObjectShortName">None[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_data_assemble_pkg_tb/uut/DOF_Option_1" type="array">
+      <obj_property name="ElementShortName">DOF_Option_1[2:0]</obj_property>
+      <obj_property name="ObjectShortName">DOF_Option_1[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_data_assemble_pkg_tb/uut/Length_Option_2" type="array">
+      <obj_property name="ElementShortName">Length_Option_2[2:0]</obj_property>
+      <obj_property name="ObjectShortName">Length_Option_2[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_data_assemble_pkg_tb/uut/Actuator_Data_Option_3" type="array">
+      <obj_property name="ElementShortName">Actuator_Data_Option_3[2:0]</obj_property>
+      <obj_property name="ObjectShortName">Actuator_Data_Option_3[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_data_assemble_pkg_tb/uut/Accelerometer_Option_4" type="array">
+      <obj_property name="ElementShortName">Accelerometer_Option_4[2:0]</obj_property>
+      <obj_property name="ObjectShortName">Accelerometer_Option_4[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_data_assemble_pkg_tb/uut/Alarm_List_Option_5" type="array">
+      <obj_property name="ElementShortName">Alarm_List_Option_5[2:0]</obj_property>
+      <obj_property name="ObjectShortName">Alarm_List_Option_5[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_data_assemble_pkg_tb/uut/Dof_Extended_Data_Option_6" type="array">
+      <obj_property name="ElementShortName">Dof_Extended_Data_Option_6[2:0]</obj_property>
+      <obj_property name="ObjectShortName">Dof_Extended_Data_Option_6[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_data_assemble_pkg_tb/uut/Automated_Test_Status_Option_7" type="array">
+      <obj_property name="ElementShortName">Automated_Test_Status_Option_7[2:0]</obj_property>
+      <obj_property name="ObjectShortName">Automated_Test_Status_Option_7[2:0]</obj_property>
+   </wvobject>
+</wave_config>

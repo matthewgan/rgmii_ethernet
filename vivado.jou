@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Aug 20 16:20:19 2019
+# Process ID: 6624
+# Current directory: D:/Project/UDP_PRO/rgmii_ethernet
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10248 D:\Project\UDP_PRO\rgmii_ethernet\rgmii_ethernet.xpr
+# Log file: D:/Project/UDP_PRO/rgmii_ethernet/vivado.log
+# Journal file: D:/Project/UDP_PRO/rgmii_ethernet\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Project/UDP_PRO/rgmii_ethernet/rgmii_ethernet.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
